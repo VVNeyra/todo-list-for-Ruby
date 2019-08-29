@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>ToDo LISTS</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+		<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<header>
+			<h1>FIRST TODO LIST</h1>
+			<h4>BY GAPONOV</h4>
+		</header>
+		<main>
+			<div class="projecthead"> <!-- Строка с названием проекта -->
+				<div class="calendar"><img class="cal" src="img/calendar.png"></div>
+				<div class="projectname">Complete the test task for Ruby Garage</div>
+				<div class="actions1 forhover">
+					<div class="pencil1"><i class="fa fa-pencil"></i></div>
+					<div class="trash1"><i class="fa fa-trash"></i></div>
+				</div>
+			</div>
+			<div class="addtask"> <!-- Строка ввода задачи -->
+				<div><img class="plus" src="img/plus.png"></div>
+				<div class="addtaskrow">
+					<input id="taskinput1" class="taskinput" type="text" name="taskname" placeholder="Start typing here to create a task...">
+					<button class="taskbutton">Add Task</button>
+				</div>
+			</div>
+
+			<div class=taskrow> <!-- Строка задачи -->
+				<div class="checkbox"><input type="checkbox" name="taskdone"></div>
+				<div class="empty"></div>
+				<div id="taskname1" class="taskdescrition">Open this moke-up in Adobe Fireworks</div>
+				<div class="actions2 forhover">
+					<div class="sort"><i class="fa fa-sort"></i></div>
+					<div class="pencil2"><i class="fa fa-pencil"></i></div>
+					<div class="trash2"><i class="fa fa-trash"></i></div>
+				</div>
+			</div>
+
+			<div class="downlist"> <!-- Поддон проекта -->
+				<div class="down1"></div>
+				<div class="down2"></div>
+				<div class="down3"></div>
+				<div class="down4"></div>
+			</div>
+
+
+			<div class="addproject"> <!-- Кнопка добавления проекта -->
+				<button class="addprojectbutton"><i class="fa fa-plus"></i>Add TODO list</button>
+			</div>
+		</main>
+
+		<footer> &copy;Gaponov
+		</footer>
+
+

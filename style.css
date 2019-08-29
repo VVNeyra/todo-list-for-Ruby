@@ -1,0 +1,225 @@
+body {
+	background-image: url(img/bg1.png);
+	background-size: 100%;
+	font-family: helvetica;
+}
+header {
+	margin-top: 5%;
+}
+h1, h4 {
+	text-align: center;
+	color: #303030;
+	font-weight: 100;
+}
+h4 {
+	margin-top: -20px;
+	margin-bottom: 30px;
+}
+main {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.projecthead {
+	margin-top: 50px;
+	background: linear-gradient(0, #375D9C, #507EC0);
+	border: 1px solid #254a6b;
+	height: 40px;
+}
+.cal {
+	height: 20px;
+	float: left;
+	margin: 10px;
+}
+.projectname {
+	margin-left: 20px;
+	width: 	660px;
+	font-family: helvetica;
+	font-size: 20px;
+	color: white;
+	font-weight: 300;
+	float: left;
+	margin-top: 10px;
+}
+.actions1 {
+	width: 50px;
+	color: white;
+	height: 15px;
+	float: left;
+	padding-top: 10px;
+	padding-left: 7px;
+	opacity: 0.7;
+}
+.pencil1 {
+	float: left;
+	padding-right: 7px;
+	border-right: 1px solid white;
+}
+.fa-trash {
+	padding-left: 10px;
+}
+.addtask {
+	background: linear-gradient(0, #CDCDCD, #E0E0E0);
+	border: 1px solid #889AB5;
+	height:40px;
+}
+.plus {
+	height: 20px;
+	float: left;
+	margin: 10px;
+	box-shadow: 0 -5 5px black; 
+}
+.addtaskrow {
+	float:left;
+	height: 25px;
+	width: 93%;
+	padding-top: 10px;
+}
+.taskinput {
+	width: 630px;
+	height: 20px;
+	border: 0;
+	margin-right: 0;
+	color: grey;
+	padding-left: 10px;
+	box-shadow: 1px -1px 1px #AAA;
+}
+.taskbutton {
+	width: 100px;
+	height: 22px;
+	border: 0;
+	margin-left: -10px;
+	background: linear-gradient(0, #4D8364, #93CAAD);
+	color: white;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: 1px -1px 1px #AAA;
+}
+.taskrow {
+	height: 40px;
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	border-top: 1px solid #AAA;
+	border-left: 1px solid #AAA;
+	border-right: 1px solid #AAA;
+}
+.row {
+	height: 40px;
+	border-right: 1px solid #AAA;
+	vertical-align: middle;
+
+}
+.checkbox {
+	height: 15px;
+	width: 15px;
+	padding: 10px;
+	float:left;
+}
+.empty {
+	border-right: 1px solid #AAA;
+	border-left: 1px solid #AAA;
+	float: left;
+	width: 5px;
+	height: 40px;
+}
+.taskdescrition {
+	margin-top: 10px;
+	font-size: 16px;
+	width: 620px;
+	padding-left: 15px;
+	float: left;
+	opacity: 0.7;
+}
+.taskrow:hover {
+	background-color:#FCFED5;
+}
+.actions2 {
+	padding-top: 10px;
+	color: grey;
+	float: left;
+	height: 30px;
+	border-left: 1px solid #AAA;
+}
+.sort {
+	margin-left: 20px;
+	float: left;
+	padding-right: 10px;
+	border-right: 1px solid grey;
+}
+.pencil2 {
+	float: left;
+	border-right: 1px solid grey;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.trash2 {
+	float: left;
+}
+.downlist {
+	width: 810px;
+	height: 11px;
+	
+	
+}
+.down1 {
+	background-color: white;
+	float: left;
+	height: 10px;
+	width: 35px;
+	border-bottom: 1px solid #AAA;
+	border-right: 1px solid #AAA;
+	border-left: 1px solid #AAA;
+	border-bottom-left-radius: 10px;
+}
+.down2 {
+	background-color: white;
+	float: left;
+	height: 10px;
+	width: 5px;
+	border-right: 1px solid #AAA;
+	border-bottom: 1px solid #AAA;
+}
+.down3 {
+	background-color: white;
+	float: left;
+	height: 10px;
+	width: 635px;
+	border-right: 1px solid #AAA;
+	border-bottom: 1px solid #AAA;
+}
+.down4 {
+	background-color: white;
+	float: left;
+	height: 10px;
+	border-bottom: 1px solid #AAA;
+	border-right: 1px solid #AAA;
+	width: 121px;
+	border-bottom-right-radius: 10px;
+}
+.addproject {
+	width: 810px;
+	margin-top: 50px;
+}
+.addprojectbutton {
+	text-align: left;
+	background: linear-gradient(0, #375D9C, #507EC0);
+	color: white;
+	font-weight: 600;
+	font-family: helvetica;
+	width: 150px;
+	height: 30px;
+	margin-left: 325px;
+	border: 0;
+	border-radius: 3px;
+}
+.fa-plus {
+	transform: scale(1.5);
+	color: #314A6F;
+	margin-right: 10px;
+}
+footer {
+	margin-top: 30px;
+	text-align: center;
+	opacity: 0.7;
+}
